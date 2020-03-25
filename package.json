@@ -1,0 +1,22 @@
+{
+  "name": "prime-multiplication-table",
+  "version": "1.0.0",
+  "description": "multiplication table for prime numbers with a table length of n",
+  "main": "prime.js",
+  "scripts": {
+    "start": "serve -s",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "keywords": [
+    "prime"
+  ],
+  "author": "Smart Samuel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "mocha-jsdom": "^2.0.0",
+    "serve": "^11.3.0"
+  }
+}
